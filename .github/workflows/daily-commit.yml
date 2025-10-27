@@ -3,7 +3,7 @@ on:
   workflow_dispatch: # <-- This line allows you to run it manually (Step 7)
   schedule:
     # This cron is set to run ~2 minutes from now (UTC)
-    - cron: '41 16 * * *'
+    - cron: '28 17 * * *'
 
 # ADDED: This gives the workflow write permissions for the commit
 permissions:
